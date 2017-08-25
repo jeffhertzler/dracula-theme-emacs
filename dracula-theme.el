@@ -290,6 +290,10 @@
    `(powerline-evil-operator-face ((,class (:inherit powerline-evil-base-face :background ,rainbow-4))))
    `(powerline-evil-replace-face ((,class (:inherit powerline-evil-base-face :background "#ff5555"))))
    `(powerline-evil-visual-face ((,class (:inherit powerline-evil-base-face :background ,rainbow-5))))
+   `(powerline-active1 ((,class (:background ,bg2 :foreground ,fg1))))
+   `(powerline-active2 ((,class (:background ,bg2 :foreground ,fg1))))
+   `(powerline-inactive1 ((,class (:background ,bg3 :foreground ,fg1))))
+   `(powerline-inactive2 ((,class (:background ,bg3 :foreground ,fg1))))
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,rainbow-1)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,rainbow-2)))
