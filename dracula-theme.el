@@ -294,6 +294,14 @@
    `(powerline-active2 ((,class (:background ,bg2 :foreground ,fg1))))
    `(powerline-inactive1 ((,class (:background ,bg3 :foreground ,fg1))))
    `(powerline-inactive2 ((,class (:background ,bg3 :foreground ,fg1))))
+   ;; spacemacs
+   `(spacemacs-emacs-face ((,class (:foreground ,bg2 :background ,rainbow-1))))
+   `(spacemacs-insert-face ((,class (:foreground ,bg2 :background ,rainbow-7))))
+   `(spacemacs-motion-face ((,class (:foreground ,bg2 :background ,rainbow-6))))
+   `(spacemacs-normal-face ((,class (:foreground ,bg2 :background ,rainbow-2))))
+   `(spacemacs-operator-face ((,class (:foreground ,bg2 :background ,rainbow-6))))
+   `(spacemacs-replace-face ((,class (:foreground ,bg2 :background ,rainbow-4))))
+   `(spacemacs-visual-face ((,class (:foreground ,bg2 :background ,rainbow-3))))
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,rainbow-1)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,rainbow-2)))
