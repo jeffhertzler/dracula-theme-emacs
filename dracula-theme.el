@@ -312,6 +312,7 @@
    `(rainbow-delimiters-depth-7-face ((,class :foreground ,rainbow-7)))
    `(rainbow-delimiters-depth-8-face ((,class :foreground ,rainbow-8)))
    `(rainbow-delimiters-unmatched-face ((,class :foreground ,warning)))
+   `(rainbow-delimiters-mismatched-face ((,class :foreground ,warning)))
    ;; rpm-spec
    `(rpm-spec-dir-face ((,class (:foreground ,rainbow-6))))
    `(rpm-spec-doc-face ((,class (:foreground ,rainbow-4))))
