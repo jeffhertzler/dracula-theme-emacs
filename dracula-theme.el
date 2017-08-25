@@ -66,6 +66,7 @@
    `(lazy-highlight ((,class (:foreground ,fg2 :background ,bg3))))
    `(link ((,class (:foreground ,const :underline t))))
    `(linum ((,class (:slant italic :foreground ,bg4 :background ,bg1))))
+   `(linum-relative-current-face ((,class (:foreground ,rainbow-2 :background ,bg2))))
    `(minibuffer-prompt ((,class (:bold t :foreground ,keyword))))
    `(region ((,class (:background ,str :foreground ,bg1))))
    `(show-paren-match-face ((,class (:background ,warning))))
