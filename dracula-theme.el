@@ -63,7 +63,9 @@
    `(hl-line ((,class (:background ,bg2))))
    `(info-quoted-name ((,class (:foreground ,builtin))))
    `(info-string ((,class (:foreground ,str))))
-   `(lazy-highlight ((,class (:foreground ,fg2 :background ,bg3))))
+   `(isearch ((,class (:bold t :foreground ,bg1 :background ,rainbow-6))))
+   `(isearch-fail ((,class (:foreground ,bg1 :background ,warning))))
+   `(lazy-highlight ((,class (:foreground ,bg1 :background ,rainbow-3))))
    `(link ((,class (:foreground ,const :underline t))))
    `(linum ((,class (:slant italic :foreground ,bg4 :background ,bg1))))
    `(linum-relative-current-face ((,class (:foreground ,rainbow-2 :background ,bg2))))
@@ -187,9 +189,6 @@
    `(ido-first-match ((,class (:foreground ,keyword :bold t))))
    `(ido-only-match ((,class (:foreground ,warning))))
    `(ido-subdir ((,class (:foreground ,builtin))))
-   ;; isearch
-   `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
-   `(isearch-fail ((,class (:foreground ,bg1 :background ,warning))))
    ;; jde-java
    `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
    `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
