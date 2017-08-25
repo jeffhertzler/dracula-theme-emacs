@@ -431,7 +431,17 @@
    `(icicle-common-match-highlight-Completions ((,class (:foreground ,type))))
    `(icicle-candidate-part                     ((,class (:foreground ,var))))
    `(icicle-annotation                         ((,class (:foreground ,fg4))))
-  ))
+  )
+  (custom-theme-set-variables
+   'dracula
+   ;; cursor
+   `(evil-emacs-state-cursor '(,rainbow-1 box))
+   `(evil-insert-state-cursor '(,rainbow-7 (bar . 2)))
+   `(evil-motion-state-cursor '(,rainbow-6 box))
+   `(evil-normal-state-cursor '(,rainbow-2 box))
+   `(evil-replace-state-cursor '(,rainbow-4 (hbar . 2)))
+   `(evil-visual-state-cursor '(,rainbow-3 (hbar . 2)))
+   ))
 
 
 ;;;###autoload
