@@ -68,7 +68,7 @@
    `(linum ((,class (:slant italic :foreground ,bg4 :background ,bg1))))
    `(linum-relative-current-face ((,class (:foreground ,rainbow-2 :background ,bg2))))
    `(minibuffer-prompt ((,class (:bold t :foreground ,keyword))))
-   `(region ((,class (:background ,str :foreground ,bg1))))
+   `(region ((,class (:background ,bg5))))
    `(show-paren-match-face ((,class (:background ,warning))))
    `(trailing-whitespace ((,class :foreground nil :background ,warning)))
    `(vertical-border ((,class (:foreground ,bg2))))
