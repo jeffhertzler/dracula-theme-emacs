@@ -290,6 +290,14 @@
                (powerline-active2 :background ,bg2 :foreground ,fg1)
                (powerline-inactive2 :background ,bg3 :foreground ,fg1)
                (powerline-inactive2 :background ,bg3 :foreground ,fg1)
+               ;; spaceline
+               (spaceline-evil-emacs :foreground ,bg2 :background ,rainbow-1)
+               (spaceline-evil-insert :foreground ,bg2 :background ,rainbow-7)
+               (spaceline-evil-motion :foreground ,bg2 :background ,rainbow-6)
+               (spaceline-evil-normal :foreground ,bg2 :background ,rainbow-2)
+               (spaceline-evil-operator :foreground ,bg2 :background ,rainbow-6)
+               (spaceline-evil-replace :foreground ,bg2 :background ,rainbow-4)
+               (spaceline-evil-visual :foreground ,bg2 :background ,rainbow-3)
                ;; rainbow-delimiters
                (rainbow-delimiters-depth-1-face :foreground ,rainbow-1)
                (rainbow-delimiters-depth-2-face :foreground ,rainbow-2)
