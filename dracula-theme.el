@@ -286,8 +286,8 @@
                (powerline-evil-operator-face :inherit powerline-evil-base-face :background ,rainbow-6)
                (powerline-evil-replace-face :inherit powerline-evil-base-face :background ,rainbow-4)
                (powerline-evil-visual-face :inherit powerline-evil-base-face :background ,rainbow-3)
-               (powerline-active1 :background ,bg6 :foreground ,fg1)
-               (powerline-active2 :background ,bg6 :foreground ,fg1)
+               (powerline-active1 :background ,bg2 :foreground ,fg1)
+               (powerline-active2 :background ,bg2 :foreground ,fg1)
                (powerline-inactive2 :background ,bg3 :foreground ,fg1)
                (powerline-inactive2 :background ,bg3 :foreground ,fg1)
                ;; rainbow-delimiters
